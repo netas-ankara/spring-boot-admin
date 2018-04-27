@@ -54,10 +54,3 @@ logging.level.org.springframework.web: DEBUG
 ## Known Issues
 
 * Maven build with test succedes with "java.lang.IllegalStateException: service-base-url must be set when deployed to servlet-container" error
-
-## Future Work
-* Using Spring Boot 2.0.1 and Spring Boot Admin 2.0.0-SNAPSHOT causes login trouble for Spring Boot Admin Console. Fix it!
-* Add some services and create a load test to observe meaninful metrics on admin console
-* Notification integration using mail, slack
-* JWT integration
-* Spring Cloud integration

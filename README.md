@@ -20,3 +20,10 @@ It provides the following features for registered application.
 * Download heapdump
 * Notification on status change (via e-mail, Slack, Hipchat, ...)
 * Event journal of status changes (non persistent)
+
+## Future Work
+* Using Spring Boot 2.0.1 and Spring Boot Admin 2.0.0-SNAPSHOT causes login trouble for Spring Boot Admin Console. Fix it!
+* Add some services and create a load test to observe meaninful metrics on admin console
+* Notification integration using mail, slack
+* JWT integration
+* Spring Cloud integration
